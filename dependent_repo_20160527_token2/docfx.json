@@ -1,0 +1,39 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "dependent_repo_20160527_token2/**"
+        ],
+        "src": null,
+        "dest": null
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "dependent_repo_20160527_token2/**"
+        ],
+        "src": null,
+        "dest": null
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {},
+    "fileMetadata": {},
+    "template": [
+      "docs.html"
+    ],
+    "dest": "dependent_repo_20160527_token2"
+  }
+}
