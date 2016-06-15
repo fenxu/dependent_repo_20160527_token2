@@ -5,4 +5,5 @@ var events = await outlookClient.Me.Events
 foreach(var calendarEvent in events.CurrentPage)
 {
   System.Diagnostics.Debug.WriteLine("Event '{0}'.", calendarEvent.Subject);
+  continue;
 }
